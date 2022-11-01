@@ -7,7 +7,7 @@
         }
     });
     return uniqArray;
-}
+};
 
 // console.log([1,2,2,3,3,3].uniq());
 
@@ -22,11 +22,11 @@ Array.prototype.twoSum = function () {
         }
     }
     return twoSumArray;
-}   
+};   
 
 // console.log([1, -2, 2, -3, 3].twoSum());
 
-Array.prototype.transpose = function() {
+Array.prototype.transpose = function () {
     const transposed = [];
 
     for (let i = 0; i < this.length; i++) {
@@ -37,6 +37,6 @@ Array.prototype.transpose = function() {
         transposed.push(temp);
     }
     return transposed;
-}
+};
 
 console.log([[1,2,3],[4,5,6],[7,8,9]].transpose());
